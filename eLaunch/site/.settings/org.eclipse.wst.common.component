@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="site">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="core-web-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/core-web/core-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-profile-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-profile/broadleaf-profile">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-framework-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-framework/broadleaf-framework">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-common-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-common/broadleaf-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-contentmanagement-module-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-contentmanagement-module/broadleaf-contentmanagement-module">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-open-admin-platform-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-open-admin-platform/broadleaf-open-admin-platform">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-framework-web-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-framework-web/broadleaf-framework-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="broadleaf-profile-web-3.1.8-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/broadleaf-profile-web/broadleaf-profile-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/site/target/ti/WEB-INF/classes"/>
+        <property name="context-root" value="ti"/>
+    </wb-module>
+</project-modules>
